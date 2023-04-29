@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: dotnet-app-service
 spec:
+  type: LoadBalancer
   selector:
     app: dotnet-app
   ports:
