@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: z3tout.azurecr.io/core-with-docker:latest
+        image: z3tout.azurecr.io/mywebapp:latest
         ports:
         - containerPort: 80
         env:
